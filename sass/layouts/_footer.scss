@@ -1,0 +1,89 @@
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--tertiary-bg-color);
+}
+
+
+
+.address .link {
+    color: var(--button-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address__email,
+.address__tel {
+    display: block;
+    margin-top: 9px;
+
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-right: 93px;
+}
+
+.follow__text {
+    margin-bottom: 20px;
+    width: 145px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03px;
+    text-transform: uppercase;
+
+    color: var(--button-text);
+
+
+}
+
+.ourcompany {
+    display: flex;
+    align-items: baseline;
+}
+
+.ourcompany__social-list {
+    display: flex;
+}
+
+.social-list__item--white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+
+
+&:hover,
+&:focus {
+    background-color: var(--accent-color);
+
+}
+& + & {
+    margin-left: 10px;
+}
+}
+.social-list__icon {
+    fill: var(--button-text);
+}
+
